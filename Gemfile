@@ -31,6 +31,7 @@ gem 'paperclip'
 
 gem 'aws-sdk'
 
+gem 'mysql2', '~> 0.3.18'
 
 gem 'sdoc', '~> 0.4.0', group: :doc
 
