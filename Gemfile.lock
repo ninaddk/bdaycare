@@ -74,7 +74,6 @@ GEM
     mimemagic (0.3.1)
     mini_portile2 (2.1.0)
     minitest (5.9.0)
-    mysql (2.9.1)
     mysql2 (0.3.21)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
@@ -85,6 +84,7 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (~> 0.3.0)
+    pg (0.18.4)
     pkg-config (1.1.7)
     rack (1.6.4)
     rack-test (0.6.3)
@@ -151,9 +151,9 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   byebug
   heroku-deflater
-  mysql
   mysql2 (~> 0.3.18)
   paperclip
+  pg
   rails (= 4.2.1)
   rails_12factor
   sdoc (~> 0.4.0)
